@@ -1,6 +1,6 @@
 EasyBus Medellin
 
-Autores: 
+######\Autores: 
 
   Simon Escobar Benitez
 
@@ -8,13 +8,13 @@ Autores:
 
   Mateo Gomez Zuluaga
 
-Desarrollo:
+######\Desarrollo:
 
   Version Movil
 
   Version Service
 
-Año:
+######\Año:
 
   2012-1
 
@@ -27,10 +27,10 @@ de coger para llegar a mi destino? , ¿Cuántos buses debo coger?,
 ¿Porqué no contamos con un servicio parecido si sabemos que muchas otras ciudades en 
 otras partes del mundo ya cuentan con el?, A esto le agregamos que nuestra 
 cuidad carece de información precisa, accessible y puntual sobre el transporte público, 
-¿Quíen de nosotros se ah metido a la pagina del transito para ver las 
-rutas de los Buses, Metro plus y Metro?. Si alguno de ustedes lo ah hecho se ah 
+¿Quíen de nosotros se ha metido a la pagina del transito para ver las 
+rutas de los Buses, Metro plus y Metro?. Si alguno de ustedes lo ha hecho se ha 
 encontrado con documentos muy dificiles de leer que causan al usuario pereza y desmotivación, 
-lo cual insitan a mejor conger un taxi, siendo este mucho mas costoso.
+lo cual insita a mejor coger un taxi, siendo éste mucho mas costoso.
 
 
 
