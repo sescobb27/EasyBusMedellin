@@ -1,18 +1,25 @@
 EasyBus Medellin
 
 Autores: 
+
   Simon Escobar Benitez
+
   Edgardo Andres Sierra
+
   Mateo Gomez Zuluaga
 
 Desarrollo:
+
   Version Movil
+
   Version Service
 
 Año:
+
   2012-1
 
 Descripcion:
+
 La idea se basa en dar solución a la pregunta que muchos de nosotros nos 
 hacemos diariamente a la hora de utilizar el transporte público: ¿Qué bus debo 
 de coger para llegar a mi destino? , ¿Cuántos buses debo coger?, 
