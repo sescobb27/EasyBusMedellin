@@ -1,24 +1,24 @@
-EasyBus Medellin
+#EasyBus Medellin
 
-######Autores: 
+####Autores: 
 
-##  Simon Escobar Benitez
+###  Simon Escobar Benitez
 
-##  Edgardo Andres Sierra
+###  Edgardo Andres Sierra
 
-##  Mateo Gomez Zuluaga
+###  Mateo Gomez Zuluaga
 
-######Desarrollo:
+####Desarrollo:
 
   Version Movil
 
   Version Service
 
-######Año:
+####Año:
 
   2012-1
 
-######Descripcion:
+####Descripcion:
 
 La idea se basa en dar solución a la pregunta que muchos de nosotros nos 
 hacemos diariamente a la hora de utilizar el transporte público: ¿Qué bus debo 
