@@ -1,20 +1,20 @@
 EasyBus Medellin
 
-######\Autores: 
+######Autores: 
 
-  Simon Escobar Benitez
+##  Simon Escobar Benitez
 
-  Edgardo Andres Sierra
+##  Edgardo Andres Sierra
 
-  Mateo Gomez Zuluaga
+##  Mateo Gomez Zuluaga
 
-######\Desarrollo:
+######Desarrollo:
 
   Version Movil
 
   Version Service
 
-######\Año:
+######Año:
 
   2012-1
 
