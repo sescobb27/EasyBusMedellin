@@ -18,7 +18,7 @@ EasyBus Medellin
 
   2012-1
 
-Descripcion:
+######Descripcion:
 
 La idea se basa en dar solución a la pregunta que muchos de nosotros nos 
 hacemos diariamente a la hora de utilizar el transporte público: ¿Qué bus debo 
