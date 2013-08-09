@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/clearmap"
+          android:title="Reset map" />
+    <item android:id="@+id/others"
+          android:title="Volver a las soluciones" />
+    <item android:id="@+id/rangos"
+          android:title="Volver a mostrar Rangos"
+          android:enabled="true"/>
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/icono"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/icono" />
+
+        <ImageView
+            android:id="@+id/btntransporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icono"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bus"
+            android:onClick="onClick" />
+
+        <SlidingDrawer
+            android:id="@+id/slidingDrawer1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:content="@+id/content"
+            android:handle="@+id/handle" >
+
+            <ImageView
+                android:id="@+id/handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ayuda" />
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="318dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ayuda2" >
+            </LinearLayout>
+        </SlidingDrawer>
+
+    </RelativeLayout>

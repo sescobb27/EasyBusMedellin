@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyBusMedellinMovil</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="buttonQueBusCojo">¿Qué bus me sirve?</string>
+    <string name="buttonPosicionAuto">Detectar Posición por GPS</string>
+    <string name="descNombre">Nombre de la aplicación</string>
+    <string name="descLogo">Logo de la aplicación</string>
+    <string name="buttonPosicionManu">Seleccionar Posición</string>
+    <string name="buttonDondeEstoy">¿Dónde Estoy?</string>
+    <string name="buttonAyuda">Ayuda</string>
+    
+    
+</resources>

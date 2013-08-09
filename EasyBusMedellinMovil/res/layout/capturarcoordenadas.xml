@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/descLogo"
+        android:scaleType="fitStart"
+        android:src="@drawable/icono" />
+
+    <ImageView
+        android:id="@+id/ButtonPosicionManu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:onClick="onClick"
+        android:src="@drawable/manual" />
+
+    <ImageView
+        android:id="@+id/buttonPosicionAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ButtonPosicionManu"
+        android:layout_alignLeft="@+id/ButtonPosicionManu"
+        android:layout_marginBottom="24dp"
+        android:onClick="onClick"
+        android:src="@drawable/gps" />
+
+</RelativeLayout>

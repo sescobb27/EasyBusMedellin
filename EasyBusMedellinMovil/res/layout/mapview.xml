@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+		<com.google.android.maps.MapView
+		    android:id="@+id/mapa"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:apiKey="0a9mqGMZWcKx0CcAh62VVorvzd2tiAe8lFbS7KA"
+		    android:clickable="true" />
+
+		<SlidingDrawer
+		    android:id="@+id/slidingDrawer1"
+		    android:layout_width="match_parent"
+		    android:layout_height="400dp"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:content="@+id/content"
+		    android:orientation="horizontal"
+		    android:handle="@+id/handle" >
+
+		    <Button
+		        android:id="@+id/handle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="PASOS" 
+		        />
+
+		    <LinearLayout
+		        android:id="@+id/content"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent" 
+		        android:background="@drawable/steps">
+		        
+
+		        <TextView
+		            android:id="@+id/txtpasos"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:text="No hay pasos por el Momento"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+		        
+		    </LinearLayout>
+		</SlidingDrawer>
+
+    </RelativeLayout>
