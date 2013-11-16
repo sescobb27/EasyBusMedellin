@@ -11,6 +11,7 @@
     <string name="buttonPosicionManu">Seleccionar Posición</string>
     <string name="buttonDondeEstoy">¿Dónde Estoy?</string>
     <string name="buttonAyuda">Ayuda</string>
+    <string name="welcome">Welcome to Easybus Medellin</string>
     
     
 </resources>

@@ -424,7 +424,7 @@ containing a value of this type.
         public static final int center=0x7f04000c;
         public static final int center_horizontal=0x7f04000a;
         public static final int center_vertical=0x7f040008;
-        public static final int clearmap=0x7f040022;
+        public static final int clearmap=0x7f040023;
         public static final int clip_horizontal=0x7f04000f;
         public static final int clip_vertical=0x7f04000e;
         public static final int content=0x7f04001e;
@@ -436,14 +436,15 @@ containing a value of this type.
         public static final int horizontal=0x7f040000;
         public static final int hybrid=0x7f040016;
         public static final int icono=0x7f04001b;
+        public static final int imageView1=0x7f040022;
         public static final int imageViewLogo=0x7f040017;
         public static final int label=0x7f04001a;
         public static final int left=0x7f040006;
         public static final int mapa=0x7f040020;
         public static final int none=0x7f040012;
         public static final int normal=0x7f040013;
-        public static final int others=0x7f040023;
-        public static final int rangos=0x7f040024;
+        public static final int others=0x7f040024;
+        public static final int rangos=0x7f040025;
         public static final int right=0x7f040007;
         public static final int satellite=0x7f040014;
         public static final int slidingDrawer1=0x7f04001d;
@@ -571,6 +572,7 @@ containing a value of this type.
         public static final int descNombre=0x7f07001f;
         public static final int hello_world=0x7f07001b;
         public static final int menu_settings=0x7f07001c;
+        public static final int welcome=0x7f070024;
     }
     public static final class style {
         /** 

@@ -39,7 +39,8 @@
                 android:id="@+id/content"
                 android:layout_width="318dp"
                 android:layout_height="match_parent"
-                android:background="@drawable/ayuda2" >
+                android:background="@drawable/ayuda2"
+                android:orientation="vertical" >
             </LinearLayout>
         </SlidingDrawer>
 
