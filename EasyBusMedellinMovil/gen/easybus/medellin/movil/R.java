@@ -424,7 +424,7 @@ containing a value of this type.
         public static final int center=0x7f04000c;
         public static final int center_horizontal=0x7f04000a;
         public static final int center_vertical=0x7f040008;
-        public static final int clearmap=0x7f040023;
+        public static final int clearmap=0x7f040024;
         public static final int clip_horizontal=0x7f04000f;
         public static final int clip_vertical=0x7f04000e;
         public static final int content=0x7f04001e;
@@ -436,22 +436,24 @@ containing a value of this type.
         public static final int horizontal=0x7f040000;
         public static final int hybrid=0x7f040016;
         public static final int icono=0x7f04001b;
-        public static final int imageView1=0x7f040022;
+        public static final int imageView1=0x7f040023;
         public static final int imageViewLogo=0x7f040017;
         public static final int label=0x7f04001a;
         public static final int left=0x7f040006;
-        public static final int mapa=0x7f040020;
+        public static final int manual_location=0x7f040027;
+        public static final int map=0x7f040020;
+        public static final int mapa=0x7f040021;
         public static final int none=0x7f040012;
         public static final int normal=0x7f040013;
-        public static final int others=0x7f040024;
-        public static final int rangos=0x7f040025;
+        public static final int others=0x7f040025;
+        public static final int rangos=0x7f040026;
         public static final int right=0x7f040007;
         public static final int satellite=0x7f040014;
         public static final int slidingDrawer1=0x7f04001d;
         public static final int start=0x7f040010;
         public static final int terrain=0x7f040015;
         public static final int top=0x7f040004;
-        public static final int txtpasos=0x7f040021;
+        public static final int txtpasos=0x7f040022;
         public static final int vertical=0x7f040001;
     }
     public static final class integer {
@@ -461,8 +463,9 @@ containing a value of this type.
         public static final int capturarcoordenadas=0x7f030000;
         public static final int listasolucion=0x7f030001;
         public static final int main=0x7f030002;
-        public static final int mapview=0x7f030003;
-        public static final int welcome_layout=0x7f030004;
+        public static final int map_layout=0x7f030003;
+        public static final int mapview=0x7f030004;
+        public static final int welcome_layout=0x7f030005;
     }
     public static final class menu {
         public static final int easybus_menu=0x7f0a0000;
@@ -572,6 +575,10 @@ containing a value of this type.
         public static final int descNombre=0x7f07001f;
         public static final int hello_world=0x7f07001b;
         public static final int menu_settings=0x7f07001c;
+        public static final int reset_map=0x7f070028;
+        public static final int ubicacion_manual=0x7f070025;
+        public static final int volver_a_las_soluciones=0x7f070027;
+        public static final int volver_a_mostrar_rangos=0x7f070026;
         public static final int welcome=0x7f070024;
     }
     public static final class style {

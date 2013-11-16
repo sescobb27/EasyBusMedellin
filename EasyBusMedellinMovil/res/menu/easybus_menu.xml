@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@+id/clearmap"
-          android:title="Reset map" />
+          android:title="@string/reset_map" />
     <item android:id="@+id/others"
-          android:title="Volver a las soluciones" />
+          android:title="@string/volver_a_las_soluciones" />
     <item android:id="@+id/rangos"
-          android:title="Volver a mostrar Rangos"
+          android:title="@string/volver_a_mostrar_rangos"
           android:enabled="true"/>
+    <item android:id="@+id/manual_location"
+        android:menuCategory="container"
+        android:title="@string/ubicacion_manual"
+        android:checked="false"
+        android:enabled="true"
+        android:visible="true"
+        android:checkable="true" />
 </menu>

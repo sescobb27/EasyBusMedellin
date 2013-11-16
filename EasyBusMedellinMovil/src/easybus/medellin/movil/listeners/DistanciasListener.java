@@ -21,38 +21,35 @@ public class DistanciasListener implements DialogInterface.OnClickListener {
 
 	@Override
 	public void onClick(DialogInterface dialog, int which) {
-		switch (which) {
-		case 0:
-			rango = 200;
-			break;
-		case 1:
-			rango = 400;
-			break;
-		case 2:
-			rango = 600;
-			break;
-		case 3:
-			rango = 800;
-			break;
-		case 4:
-			rango = 1000;
-			break;
-		case 5:
-			rango = 1200;
-			break;
-		case 6:
-			rango = 1400;
-			break;
-		}
+//		switch (which) {
+//		case 0:
+//			rango = 200;
+//			break;
+//		case 1:
+//			rango = 400;
+//			break;
+//		case 2:
+//			rango = 600;
+//			break;
+//		case 3:
+//			rango = 800;
+//			break;
+//		case 4:
+//			rango = 1000;
+//			break;
+//		case 5:
+//			rango = 1200;
+//			break;
+//		case 6:
+//			rango = 1400;
+//			break;
+//		}
+		rango = ( 200 * which ) + 200;
 		conexion.setRango(rango);
-		if (second == null) {
-			second = new Thread(conexion);
-			second.start();
-		} else {
-			second = null;
-			second = new Thread(conexion);
-			second.start();
-		}
+		if ( second != null)
+			second.interrupt();
+		second = new Thread(conexion);
+		second.start();
 	}
 
 }

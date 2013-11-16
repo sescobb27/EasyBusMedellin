@@ -12,6 +12,10 @@
     <string name="buttonDondeEstoy">¿Dónde Estoy?</string>
     <string name="buttonAyuda">Ayuda</string>
     <string name="welcome">Welcome to Easybus Medellin</string>
+    <string name="ubicacion_manual">Ubicación Manual</string>
+    <string name="volver_a_mostrar_rangos">Volver a mostrar Rangos</string>
+    <string name="volver_a_las_soluciones">Volver a las soluciones</string>
+    <string name="reset_map">Reset map</string>
     
     
 </resources>

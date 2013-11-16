@@ -1,0 +1,21 @@
+package easybus.medellin.movil.suscriptors;
+
+import java.util.LinkedList;
+
+import easybus.medellin.movil.model.Solucion.Solucion;
+
+/**
+ * 
+ * @author Mateo
+ * 
+ */
+public interface WebServiceSubscriptor {
+
+	/**
+	 * Este es el interface para emular herencia multiple y es para volver a los
+	 * mapscontrollers suscriptores del WebService
+	 * 
+	 * @param solucion
+	 */
+	public void responseObtained(LinkedList<Solucion> solucion);
+}

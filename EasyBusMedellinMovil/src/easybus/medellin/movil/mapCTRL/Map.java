@@ -23,8 +23,8 @@ import easybus.medellin.movil.listeners.SelectorRutasListener;
 import easybus.medellin.movil.model.SingletonSolucionManager;
 import easybus.medellin.movil.model.Transporte;
 import easybus.medellin.movil.model.Solucion.Solucion;
+import easybus.medellin.movil.suscriptors.WebServiceSubscriptor;
 import easybus.medellin.movil.webserviceCTRL.ConectarWebService;
-import easybus.medellin.movil.webserviceCTRL.WebServiceSubscriptor;
 
 import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;

@@ -43,8 +43,9 @@
         </activity>
         <activity android:name="easybus.medellin.movil.gpsCTRL.CapturarLocacionCtrl"> </activity>
         <activity android:name="easybus.medellin.movil.mapCTRL.mapGPS.MapActivityCtrl"> </activity>       
-        <activity android:name="easybus.medellin.movil.mapCTRL.mapMANUAL.MapManualCTRLivity"> </activity>
-        <activity android:name="easybus.medellin.movil.ListViewRutaActivity" > </activity>
+        <activity android:name="easybus.medellin.movil.mapCTRL.mapMANUAL.MapManualCTRL"> </activity>
+        <activity android:name="easybus.medellin.movil.mapCTRL.MapActivity"></activity>
+        <activity android:name="easybus.medellin.movil.WelcomeActivity"></activity>
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyC8kEXrLRl6xB5SQnPajstWRe4Xp_Vf2uk" />

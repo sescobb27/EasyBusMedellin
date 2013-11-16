@@ -17,6 +17,7 @@ import android.util.Log;
 
 import easybus.medellin.movil.jsonCTRL.JSONAdapter;
 import easybus.medellin.movil.model.Solucion.Solucion;
+import easybus.medellin.movil.suscriptors.WebServiceSubscriptor;
 
 /**
  * 
